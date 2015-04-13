@@ -18,11 +18,14 @@ Sedangkan file yang ini adalah library yang digunakan oleh sync_ip.bat untuk mel
 
 ----
 ### Usage
+    node nrepdb <source file> <str to find> <str to replace> <do fix serialization> [output file]
+
+#### Batch File
 Pertama yang perlu diketahui, tool ini dalam bentuk file .bat (batch file Windows). Untuk menjalankannya tinggal double-click file tersebut. Sebelum menjalankannya silahkan di-edit dulu file batnya untuk mengkonfigurasi nama database, username & password dsb.
 
 ----
 ### Requirement
-*mysql*, *mysqldump* and *node* (globally accessible)
+__*mysql*__, __*mysqldump*__ and __*node*__ (globally accessible)
 
 Untuk yang mysql dan mysqldump-nya masih belum dapat di akses secara global, silahkan ditambahkan dulu path-nya di enviroment variable.
 
